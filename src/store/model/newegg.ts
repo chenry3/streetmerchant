@@ -1405,6 +1405,24 @@ export const Newegg: Store = {
       url:
         'https://www.newegg.com/asus-rog-crosshair-viii-dark-hero/p/N82E16813119362',
     },
+    {
+      brand: 'intel',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16819118231',
+      series: '11900k',
+      model: 'rocket lake 11900k',
+      url:
+        'https://www.newegg.com/intel-core-i9-11900k-core-i9-11th-gen/p/N82E16819118231',
+    },
+    {
+      brand: 'intel',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16819118122',
+      series: '10900k',
+      model: 'comet lake 10900k',
+      url:
+        'https://www.newegg.com/intel-core-i9-10900k-core-i9-10th-gen/p/N82E16819118122',
+    },
   ],
   name: 'newegg',
   realTimeInventoryLookup: async (itemNumber: string) => {

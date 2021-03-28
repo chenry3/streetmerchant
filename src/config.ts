@@ -216,10 +216,14 @@ const notifications = {
   discord: {
     notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),
     notifyGroupSeries: {
+      '10900k': envOrArray(process.env.DISCORD_NOTIFY_GROUP_11900K),
+      '11900k': envOrArray(process.env.DISCORD_NOTIFY_GROUP_11900K),
+      '11700k': envOrArray(process.env.DISCORD_NOTIFY_GROUP_11900K),
       3060: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3060),
       '3060ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3060TI),
       3070: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3070),
       3080: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080),
+      '3080fe': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080FE),
       3090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3090),
       'captcha-deterrent': [],
       darkhero: envOrArray(process.env.DISCORD_NOTIFY_GROUP_DARKHERO),
@@ -382,10 +386,14 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      '10900k': envOrNumber(process.env.MAX_PRICE_SERIES_11900K),
+      '11900k': envOrNumber(process.env.MAX_PRICE_SERIES_11900K),
+      '11700k': envOrNumber(process.env.MAX_PRICE_SERIES_11900K),
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
       3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),
       3080: envOrNumber(process.env.MAX_PRICE_SERIES_3080),
+      '3080fe': envOrNumber(process.env.MAX_PRICE_SERIES_3080FE),
       3090: envOrNumber(process.env.MAX_PRICE_SERIES_3090),
       'captcha-deterrent': 0,
       darkhero: envOrNumber(process.env.MAX_PRICE_SERIES_DARKHERO),
@@ -414,10 +422,14 @@ const store = {
     };
   }),
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
+    '10900k',
+    '11900k',
+    '11700k',
     '3060',
     '3060ti',
     '3070',
     '3080',
+    '3080fe',
     '3090',
     'rx6800',
     'rx6800xt',

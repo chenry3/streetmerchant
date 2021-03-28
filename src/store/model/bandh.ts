@@ -334,6 +334,13 @@ export const BAndH: Store = {
       url:
         'https://www.bhphotovideo.com/c/product/1560680-REG/corsair_cp_9020186_na_corsair_sf750_power_supply.html',
     },
+    {
+      brand: 'intel',
+      model: 'rocket lake 11900k',
+      series: '11900k',
+      url:
+        'https://www.bhphotovideo.com/c/product/1621144-REG/intel_bx8070811900k_core_i9_11900k_3_5_ghz.html',
+    },
   ],
   name: 'bandh',
 };

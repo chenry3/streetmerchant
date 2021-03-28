@@ -762,6 +762,14 @@ export const Amazon: Store = {
       series: 'sf',
       url: 'https://www.amazon.com/dp/B07F84FJ1G',
     },
+    {
+      brand: 'intel',
+      cartUrl:
+        'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B08X6PPTTH&Quantity.1=1',
+      model: 'rocket lake 11900k',
+      series: '11900k',
+      url: 'https://www.amazon.com/dp/B08X6PPTTH',
+    },
   ],
   name: 'amazon',
 };
